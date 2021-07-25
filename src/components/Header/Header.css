@@ -1,40 +1,39 @@
 .header-container {
   width: 100%;
-  background-color: antiquewhite;
+  background-color:#fdfdfd;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding:10px;
 }
 
 .BurgerMenu {
   cursor: pointer;
+  position: relative;
+  left: 10px;
+  top: 8px;
 }
 
 .custom-collapse {
+  padding-left: 10px !important;
   position: absolute !important;
-  width: 230px !important;
+  width: 200px !important;
   height: auto !important;
   z-index: 1 !important;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-  border-radius: 0px !important;
+  border-bottom-right-radius: 4px !important;
 }
 
-.custom-card-container {
-  border-radius: 0px !important;
-}
 .LogoutLabel {
   cursor: pointer;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.1px;
+  padding: 7px;
+  /* border:1px solid black; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-bottom: 4px;
 }
 
-.Nav-Items {
-  cursor: pointer;
-  font-family: "Source Sans Pro", sans-serif;
+.name{
+  text-align: center;
+  margin-top: -45px;
+  font-size: 30px;
   font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.1px;
 }
