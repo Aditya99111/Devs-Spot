@@ -15,18 +15,20 @@ function Header() {
             aria-controls="collapseExample"
           >
             <img className="BurgerMenu" src={BurgerMenu} alt="BurgerMenu" />
+
           </div>
           <div className="ml-auto LogoutLabel">Logout</div>
         </div>
       </div>
+          <div className="name">Devs-spot</div>
       <div className="collapse custom-collapse" id="collapseExample">
-        <div className="card  custom-card-container">
-          <div className="card-body Nav-Items">
-            <div className="ml-auto Nav-Items">Profile</div>
-            <div className="ml-auto Nav-Items">Chat</div>
-            <div className="ml-auto Nav-Items">Post</div>
-            <div className="ml-auto Nav-Items">CratePost</div>
-            <div className="ml-auto Nav-Items">Logout</div>
+        <div className="card">
+          <div className="card-body">
+            <div className="ml-auto">Profile</div>
+            <div className="ml-auto">Chat</div>
+            <div className="ml-auto">Post</div>
+            <div className="ml-auto">CratePost</div>
+            <div className="ml-auto">Logout</div>
           </div>
         </div>
       </div>
