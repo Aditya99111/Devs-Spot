@@ -1,0 +1,14 @@
+.createpost_container{
+    top: 80px;
+    height: 100%;
+    background-color: #f5f5f5;
+    width: 22%;
+    position: absolute;
+    left: 78%;
+    border-right: 1px solid rgb(0, 0, 0) ;
+}
+
+.createpost_container >h1{
+    font-size: 30px;
+    text-align: center;
+}

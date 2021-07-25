@@ -1,0 +1,14 @@
+.post_container{
+    top: 80px;
+    height: 100%;
+    background-color: #f5f5f5;
+    width: 52%;
+    position: absolute;
+    left: 26%;
+    border-right: 1px solid rgb(0, 0, 0) ;
+}
+
+.post_container >h1{
+    font-size: 30px;
+    text-align: center;
+}
