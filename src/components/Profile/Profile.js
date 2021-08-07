@@ -3,13 +3,10 @@ import "./Profile.css";
 
 function Profile() {
   return (
-
     <div className="container">
-    <h1>Profile </h1>
-    <div className="user_img">
-      
+      <h1>Profile </h1>
+      <div className="user_img"></div>
     </div>
-
   );
 }
 

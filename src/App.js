@@ -10,13 +10,8 @@ function App() {
   return (
     <div>
       <Header />
-<<<<<<< HEAD
-      <Profile />
-      <Posts />
-=======
       <Posts />
       <Profile />
->>>>>>> a1f9f61a4c4dfda78deba8bb0bd8057b8af31cc1
       <CreatePosts />
       <Chat />
       <Footer />

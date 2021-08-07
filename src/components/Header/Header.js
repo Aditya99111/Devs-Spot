@@ -7,15 +7,19 @@ function Header() {
     <div className="header-container">
       <div className="container-fluid">
         <div className="d-flex align-items-cente py-2">
-          <div className="ml-0" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"aria-controls="collapseExample">
+          <div
+            className="ml-0"
+            data-toggle="collapse"
+            data-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
             <img className="BurgerMenu" src={BurgerMenu} alt="BurgerMenu" />
-
           </div>
           <div className="ml-auto LogoutLabel">Logout</div>
         </div>
       </div>
-
-          <div className="name">Devs-spot</div>
+      <div className="name">Devs-spot</div>
       <div className="collapse custom-collapse" id="collapseExample">
         <div className="card">
           <div className="card-body">
@@ -24,7 +28,6 @@ function Header() {
             <div className="ml-auto">Post</div>
             <div className="ml-auto">CratePost</div>
             <div className="ml-auto">Logout</div>
-
           </div>
         </div>
       </div>
